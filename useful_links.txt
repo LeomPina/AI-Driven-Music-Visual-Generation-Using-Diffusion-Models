@@ -1,0 +1,12 @@
+https://github.com/seungheondoh/lp-music-caps/tree/main - demo: https://huggingface.co/spaces/seungheondoh/LP-Music-Caps-demo - article: https://arxiv.org/pdf/2307.16372
+https://trojan0x.medium.com/using-ai-to-create-art-pieces-from-music-gans-and-the-deep-music-visualizer-32f90ad4af95
+https://github.com/msieg/deep-music-visualizer
+https://github.com/science4performance/MusicVideoMaker
+https://science4performance.com/2023/06/14/generating-music-videos-using-stable-diffusion/
+https://towardsdatascience.com/make-your-art-move-with-stable-diffusion-animations-80de62eec633
+https://aiart.dev/posts/sd-music-videos/sd_music_videos.html
+https://github.com/nateraw/stable-diffusion-videos
+https://forum.ircam.fr/projects/detail/music-to-image-interpolation/
+https://github.com/gio961gio/Music-to-Image-Interpolation/tree/main
+https://poloclub.github.io/diffusion-explainer/#:~:text=Stable%20Diffusion%20first%20changes%20the,into%20a%20high%2Dresolution%20image.
+https://create.pixelcut.ai/magic-eraser
