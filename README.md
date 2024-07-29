@@ -5,7 +5,7 @@ This project is meant to generate an AI music video using one (or more) artwork 
 ## 1. Generate images
 
 This section generates AI images using the Kadinsky 2.2 model by using an LLM music caption model, to generate captions for each 10 seconds of the audio sample, and an initial image artwork.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/blob/main/Generate_Images_artwork_LLM_music_caption.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/Generate_Images_artwork_LLM_music_caption.ipynb)
 
 ### 1.1. Installation Setup
 
@@ -25,3 +25,7 @@ This section generates AI images using the Kadinsky 2.2 model by using an LLM mu
 %cd lpmc/music_captioning/
 !wget https://huggingface.co/seungheondoh/lp-music-caps/resolve/main/transfer.pth -O exp/transfer/lp_music_caps/last.pth
 ```
+
+# Project based on
+
+* https://github.com/seungheondoh/lp-music-caps/tree/main
