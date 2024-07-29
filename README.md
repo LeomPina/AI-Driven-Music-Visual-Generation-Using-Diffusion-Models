@@ -4,7 +4,7 @@ This project is meant to generate an AI music video using one (or more) artwork 
 
 ## 1. Generate images
 
-This section generates AI images using the Kadinsky 2.2 model by using an LLM music caption model, to generate captions for each 10 seconds of the audio sample, and an initial image artwork. 
+This first section generates AI images using the Kadinsky 2.2 model by using an LLM music caption model, to generate captions for each 10 seconds of the audio sample, and an initial image artwork. 
 The "Generate_Images_artwork_LLM_music_caption.ipynb" file presents this stage of the project.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/blob/main/Generate_Images_artwork_LLM_music_caption.ipynb)
@@ -17,8 +17,6 @@ The "Generate_Images_artwork_LLM_music_caption.ipynb" file presents this stage o
 !git clone https://github.com/seungheondoh/lp-music-caps.git
 %cd lp-music-caps/
 !pip install -e .
-
-!pip install librosa # to get the most recent librosa package
 ```
 
 * Download and run the pre-trained model from Huggingface to generate captions
@@ -49,10 +47,52 @@ pipe_prior.to("cuda")
 
 ## 2. Generate the music visualiser
 
-This section generates AI images using the Kadinsky 2.2 model by using an LLM music caption model, to generate captions for each 10 seconds of the audio sample, and an initial image artwork. 
+This section generates an AI music visualiser using the Stable Diffusion Image Variations model to generate "image variations" capable of creating the transition frames between the AI images generated in the first stage of this project to produce the music video.
+The audio sample previously chosen will be now used to guide the flow of the transitions (using the librosa package to extract musical elements such as the harmonic and percussive).
 The "Generate_music_visualisers.ipynb" file presents this stage of the project.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/blob/main/Generate_music_visualisers.ipynb)
+
+### Installation Setup
+
+* Install required packages by cloning the LLM music caption model GitHub repository (more info about this model can be found at https://huggingface.co/lambdalabs/sd-image-variations-diffusers) and its dependencies
+  
+```python
+%%capture
+! pip install diffusers transformers
+
+import torch
+from diffusers import StableDiffusionImageVariationPipeline
+from PIL import Image
+from torchvision import transforms
+import numpy as np
+import os
+from pathlib import Path
+
+# Device setup
+device = "cuda"
+
+output_dir = Path('images_walk_with_audio') # change output path
+output_dir.mkdir(exist_ok=True, parents=True)
+
+# Load the pre-trained model
+sd_pipe = StableDiffusionImageVariationPipeline.from_pretrained(
+    "lambdalabs/sd-image-variations-diffusers",
+    revision="v2.0",
+)
+sd_pipe = sd_pipe.to(device)
+```
+
+## 2. Music visualiser Evaluation
+
+The evaluation of the outputted music video is performed by measuring the audio-visual synchrony/rhythm consistency between the music sample and the video.
+The dynamic time warping (DTW) is measured between the peak values of the frequencies and abrupt pixel differences presented in the music sample and video, respectively.
+
+### Installation Setup
+
+```python
+!pip install fastdtw
+```
 
 ## Project based on
 
