@@ -57,3 +57,5 @@ The "Generate_music_visualisers.ipynb" file presents this stage of the project.
 ## Project based on
 
 * https://github.com/seungheondoh/lp-music-caps/tree/main
+* https://github.com/alexjameswilliams/Music-Text-To-Image-Generation/tree/main
+* https://aiart.dev/posts/sd-music-videos/sd_music_videos.html
