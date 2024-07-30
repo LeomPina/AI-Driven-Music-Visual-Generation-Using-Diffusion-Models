@@ -127,10 +127,14 @@ link: https://youtube.com/shorts/PvG95JKqiPA?si=0YQUZz89FYo5E4fa
 Please use this bibtex if you would like to cite it:
 
 ```json
-{
-  "Author": "LeomPina",
-  "GitHub repository": "https://github.com/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/"
-}
+@misc{
+      author = {LeomPina},
+      title = {The use of music for the generation of AI visuals},
+      year = {2024},
+      publisher = {GitHub},
+      journal = {GitHub repository},
+      howpublished = {\url{https://github.com/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/}},
+    }
 ```
 
 ## Project based on
