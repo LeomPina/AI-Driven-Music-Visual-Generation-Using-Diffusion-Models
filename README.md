@@ -127,7 +127,10 @@ link: https://youtube.com/shorts/PvG95JKqiPA?si=0YQUZz89FYo5E4fa
 Please use this bibtex if you would like to cite it:
 
 ```json
-
+{
+  "Author": "LeomPina",
+  "GitHub repository": "https://github.com/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/"
+}
 ```
 
 ## Project based on
