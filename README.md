@@ -4,7 +4,7 @@ This project is meant to generate an AI music video using one (or more) artwork 
 
 ## 1. Generate images
 
-This first section generates AI images using the Kadinsky 2.2 model by using an LLM music caption model, to generate captions for each 10 seconds of the audio sample, and an initial image artwork. 
+This first section generates AI images using the Kandinsky 2.2 model by using an LLM music caption model, to generate captions for each 10 seconds of the audio sample, and an initial image artwork. 
 The "Generate_Images_artwork_LLM_music_caption.ipynb" file presents this stage of the project.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/blob/main/Generate_Images_artwork_LLM_music_caption.ipynb)
@@ -27,7 +27,7 @@ The "Generate_Images_artwork_LLM_music_caption.ipynb" file presents this stage o
 !python3 captioning.py --gpu 0 --audio_path 'song_path' > .../music_desc.txt
 ```
 
-* Install the image generation Kadinsky 2.2 model (more info about this model can be found at https://huggingface.co/kandinsky-community/kandinsky-2-2-prior and https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder) and its dependencies
+* Install the image generation Kandinsky 2.2 model (more info about this model can be found at https://huggingface.co/kandinsky-community/kandinsky-2-2-prior and https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder) and its dependencies
 
 ```python
 !pip install diffusers
