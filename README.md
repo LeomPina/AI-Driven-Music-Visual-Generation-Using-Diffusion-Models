@@ -1,4 +1,4 @@
-# The use of music for the generation of AI visuals
+# Leveraging Diffusion Models for AI-Driven Music-Visual Generation
 
 This project is meant to generate an AI music video using one (or more) artwork image and a music sample as inputs.
 
@@ -129,11 +129,11 @@ Please use this bibtex if you would like to cite it:
 ```
 @misc{
       author = {LeomPina},
-      title = {The use of music for the generation of AI visuals},
+      title = {Leveraging Diffusion Models for AI-Driven Music-Visual Generation},
       year = {2024},
       publisher = {GitHub},
       journal = {GitHub repository},
-      howpublished = {\url{https://github.com/LeomPina/The-use-of-music-for-the-generation-of-AI-visuals/}},
+      howpublished = {\url{https://github.com/LeomPina/Leveraging-Diffusion-Models-for-AI-Driven-Music-Visual-Generation}},
     }
 ```
 
