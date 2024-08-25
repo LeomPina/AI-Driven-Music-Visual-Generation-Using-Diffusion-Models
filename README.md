@@ -133,7 +133,7 @@ Please use this bibtex if you would like to cite it:
       year = {2024},
       publisher = {GitHub},
       journal = {GitHub repository},
-      howpublished = {\url{https://github.com/LeomPina/Leveraging-Diffusion-Models-for-AI-Driven-Music-Visual-Generation}},
+      howpublished = {\url{https://github.com/LeomPina/Leveraging-Diffusion-Models-for-AI-Driven-Music-Visual-Generation.git}},
     }
 ```
 
