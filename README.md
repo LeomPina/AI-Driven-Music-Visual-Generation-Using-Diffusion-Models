@@ -122,7 +122,7 @@ link: https://youtube.com/shorts/izeLCRBKl8I?si=Y4kBEHpcOiq3DMSx
 
 link: https://youtube.com/shorts/PvG95JKqiPA?si=0YQUZz89FYo5E4fa
 
-### Further examples using the same initial artwork images for different genres (classical, rock, jazz)
+### Further examples using the same initial artwork image for different genres (classical, rock, jazz)
 
 [![Tchaikovsky Swan Lake (Lake artwork) 30sec AI visualiser](https://img.youtube.com/vi/DvOSvszuYms/0.jpg)](https://youtube.com/shorts/DvOSvszuYms?si=EwWvp8knH2vTDSsk)
 
