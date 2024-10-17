@@ -124,13 +124,19 @@ link: https://youtube.com/shorts/PvG95JKqiPA?si=0YQUZz89FYo5E4fa
 
 ### Further examples using the same initial artwork image for different genres (classical, rock, jazz)
 
+#### Classical influence
+
 [![Tchaikovsky Swan Lake (Lake artwork) 30sec AI visualiser](https://img.youtube.com/vi/DvOSvszuYms/0.jpg)](https://youtube.com/shorts/DvOSvszuYms?si=EwWvp8knH2vTDSsk)
 
 link: https://youtube.com/shorts/DvOSvszuYms?si=EwWvp8knH2vTDSsk
 
+#### Rock influence
+
 [![Roadhouse Blues The Doors (Lake artwork) 30sec AI visualiser](https://img.youtube.com/vi/mTnDzwnoQjg/0.jpg)](https://youtube.com/shorts/mTnDzwnoQjg?si=1zryWbffW9LNtxli)
 
 link: https://youtube.com/shorts/mTnDzwnoQjg?si=1zryWbffW9LNtxli
+
+#### Jazz influence
 
 [![John Coltrane Giant Steps (Lake artwork) 30sec AI visualiser](https://img.youtube.com/vi/51Nu6mWGdX0/0.jpg)](https://youtube.com/shorts/51Nu6mWGdX0?si=8Jvr9gHL_Lbgutbj)
 
