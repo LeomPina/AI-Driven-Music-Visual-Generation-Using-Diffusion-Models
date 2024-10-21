@@ -2,7 +2,7 @@
 
 This project is meant to generate an AI music video using one (or more) artwork image and a music sample as inputs.
 
-![Diss_arch_diagram](https://github.com/user-attachments/assets/f9f0c1e3-1bb4-4e11-a016-5a1653198f13)
+<img src="https://github.com/user-attachments/assets/f9f0c1e3-1bb4-4e11-a016-5a1653198f13" alt="Diss_arch_diagram" width="500"/>
 
 ## 1. Generate images
 
