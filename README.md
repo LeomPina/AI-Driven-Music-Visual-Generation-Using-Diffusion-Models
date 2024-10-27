@@ -1,6 +1,6 @@
 # AI-Driven Music-Visual Generation Using Diffusion Models 
 
-This project is meant to generate an AI music video using one (or more) artwork image and a music sample as inputs.
+The aim of this project is to generate a music video using one (or more) artwork initial image and a music sample as user chosen inputs.
 
 <img src="https://github.com/user-attachments/assets/f9f0c1e3-1bb4-4e11-a016-5a1653198f13" alt="Diss_arch_diagram" width="500"/>
 
